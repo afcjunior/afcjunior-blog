@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Frontend Web Dev`,
     author: `Adalberto Camacho Jr.`,
-    description: `Um blog pessoal sobre desenvolvimento web focado no front-end. Dicas de carreira, opiniões, e tutoriais de coisas como React, redux, styled-components, etc.`,
+    description: `Um blog pessoal sobre desenvolvimento web focado no front-end.`,
     siteUrl: `https://afcjunior.netlify.com/`,
     social: {
       twitter: `afcjunior`,
