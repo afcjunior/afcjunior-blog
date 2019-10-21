@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Frontend web development`,
-    author: `afcjunior`,
-    description: `Um blog sobre o front de hoje em dia. React, redux, styled-components, etc.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Frontend Web Dev`,
+    author: `Adalberto Camacho Jr.`,
+    description: `Um blog pessoal sobre desenvolvimento web focado no front-end. Dicas de carreira, opiniões, e tutoriais de coisas como React, redux, styled-components, etc.`,
+    siteUrl: `https://afcjunior.netlify.com/`,
     social: {
       twitter: `afcjunior`,
     },
@@ -50,14 +50,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-150564848-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Frontend Web Dev`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
