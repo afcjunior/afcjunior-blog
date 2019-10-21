@@ -14,7 +14,7 @@ import { rhythm } from "../utils/typography"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
@@ -54,12 +54,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        Escrito por <strong>{author}</strong>, um cidadão do mundo focado em
+        desenvolver aplicações web usando React. Me segue nas redes sociais!{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>{" "}
+        <a href="https://www.instagram.com/afcjunior95/">Instagram</a>{" "}
+        <a href="http://linkedin.com/in/afcjunior">LinkedIn</a>
       </p>
     </div>
   )
